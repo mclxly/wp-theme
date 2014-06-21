@@ -47,5 +47,14 @@ function theme_name_assets() {
   //wp_enqueue_script( 'script-name', get_template_directory_uri() . '/js/example.js', array(), '1.0.0', true );
 }
 
+function my_theme_setup(){
+  // $locale = get_locale();
+  // $locale = apply_filters( 'theme_locale', $locale, 'roots' );
+  // echo $locale;
+  load_theme_textdomain('roots', get_template_directory() . '/lang');
+  //var_dump(load_theme_textdomain('croots', get_template_directory() . '/lang'));
+}
+
 add_action( 'wp_enqueue_scripts', 'theme_name_assets' );
 add_action('wp_head','digwp_insert_custom_css');
+add_action('after_setup_theme', 'my_theme_setup');

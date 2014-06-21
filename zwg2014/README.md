@@ -1,9 +1,27 @@
 # [myblog2014 Theme](http://blog.linxiang.info/)
+  * wp-config.php:　`define('WPLANG', 'zh_CN');`
   * [Roots Theme](http://roots.io/)
   * [octicons](http://octicons.github.com/)
   * 因为墙的原因，移除google相关服务，如字体，jquery-cdn
   * [Better colors for the web](https://github.com/mrmrs/colors)
+  * [在线转换工具](http://tools.konstruktors.com/)(.po <-> .mo)
+
+# Todo
   * [TimelineJS: A Storytelling Timeline built in JavaScript](https://github.com/NUKnightLab/TimelineJS)
+
+# Question
+
+## nginx下无法正确显示404.php
+  * error_page 404 /index.php;
+  * 确认没有开启`fastcgi_intercept_errors`
+
+## 无法正确加载语言文件
+
+  * 查看是否包含对应语言的mo文件
+  * 查看wp-config.php是否设置了对应的WPLANG
+
+
+
 
 # [Roots Theme](http://roots.io/)
 
