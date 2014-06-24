@@ -3,6 +3,62 @@
  */
 
 @import "bootstrap/bootstrap.less";
+@import "colors/colors.less";
+
+/* ==========================================================================
+   Dark/Light Color Setting
+   ========================================================================== */
+body.dark {
+  background-color: #282828;
+  color: #e4e4e4;
+
+  .choose-dark
+  {
+    background: #282828;
+    border: 1px solid #e4e4e4;
+  }
+
+  .choose-light
+  {
+    background: #e4e4e4;
+    border: 1px solid #282828;
+  }
+
+  .navbar-default {
+    background-color: #282828;
+    border-color: #e7e7e7;
+  }
+
+  .page-header {
+    border-bottom: 1px solid #eee;
+  }
+}
+
+body.light {
+  background-color: #e4e4e4;
+  color: #282828;
+
+  .choose-dark
+  {
+    background: #282828;
+    border: 1px solid #e4e4e4;
+  }
+
+  .choose-light
+  {
+    background: #e4e4e4;
+    border: 1px solid #282828;
+  }
+
+  .navbar-default {
+    background-color: #e4e4e4;
+    border-color: #282828;
+  }
+
+  .page-header {
+    border-bottom: 1px solid #9e9e9e;
+  }
+}
 
 /* ==========================================================================
    Base
@@ -18,7 +74,37 @@ body { }
 span.home-link {font-size: 24px;}
 #menu-primary-navigation > li {top: 5px;}
 .banner { }
+.navbar-default {width:100%; position:static;}
 
+/******** style chooser *******/
+.style-chooser
+{
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.style-chooser a
+{
+  border-radius: 35px;
+  display: inline-block;
+  height: 24px;
+  margin: 0 3px;
+  opacity: 0.5;
+  width: 24px;
+  -webkit-transition: opacity .6s ease;
+     -moz-transition: opacity .6s ease;
+     -o-transition: opacity .6s ease;
+      transition: opacity .6s ease;
+  -webkit-box-sizing: initial;
+      box-sizing: initial;
+}
+
+.style-chooser a:hover, .style-chooser a:focus
+{
+  outline: none;
+  opacity: 1;
+}
 
 
 /* ==========================================================================

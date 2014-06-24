@@ -17,5 +17,10 @@
         endif;
       ?>
     </nav>
+
+    <div class="style-chooser">
+      <a class="choose-dark" href="#"></a>
+      <a class="choose-light" href="#"></a>
+    </div>
   </div>
 </header>

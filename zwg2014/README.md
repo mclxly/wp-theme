@@ -5,6 +5,7 @@
   * 因为墙的原因，移除google相关服务，如字体，jquery-cdn
   * [Better colors for the web](https://github.com/mrmrs/colors)
   * [在线转换工具](http://tools.konstruktors.com/)(.po <-> .mo)
+  * 记录用户设置[jquery-cookie](https://github.com/carhartl/jquery-cookie)
 
 # Todo
   * [TimelineJS: A Storytelling Timeline built in JavaScript](https://github.com/NUKnightLab/TimelineJS)

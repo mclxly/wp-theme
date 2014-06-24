@@ -44,7 +44,7 @@ function theme_name_assets() {
   wp_enqueue_style( 'custom-style' );
 
   //wp_enqueue_style( 'style-name', get_stylesheet_uri() );
-  //wp_enqueue_script( 'script-name', get_template_directory_uri() . '/js/example.js', array(), '1.0.0', true );
+  wp_enqueue_script( 'custom-script', get_template_directory_uri() . '/assets/js/vendor/jquery.cookie-1.4.1.js', array(), '1.4.1', true );
 }
 
 function my_theme_setup(){
