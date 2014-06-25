@@ -34,7 +34,7 @@ function init_style_chooser($) {
     e.preventDefault();
     $('body').removeClass('light');
     $('body').addClass('dark');
-    $.cookie('body_style', 'dark', { expires: 365 });
+    $.cookie('body_style', 'dark', { expires: 365, path: '/' });
   });
   // Switch to light color scheme.
   $(".choose-light").click(function (e)
@@ -42,7 +42,7 @@ function init_style_chooser($) {
     e.preventDefault();
     $('body').removeClass('dark');
     $('body').addClass('light');
-    $.cookie('body_style', 'light', { expires: 365 });
+    $.cookie('body_style', 'light', { expires: 365, path: '/'});
   });
 }
 

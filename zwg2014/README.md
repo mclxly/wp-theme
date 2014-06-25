@@ -7,6 +7,10 @@
   * [在线转换工具](http://tools.konstruktors.com/)(.po <-> .mo)
   * 记录用户设置[jquery-cookie](https://github.com/carhartl/jquery-cookie)
 
+# 配色(dark/light)
+  * 导航栏分割线: #b1b1b1 / #707070
+  *
+
 # Todo
   * [TimelineJS: A Storytelling Timeline built in JavaScript](https://github.com/NUKnightLab/TimelineJS)
 
