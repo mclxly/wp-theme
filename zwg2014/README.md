@@ -18,7 +18,7 @@
 
 ## nginx下无法正确显示404.php
   * error_page 404 /index.php;
-  * 确认没有开启`fastcgi_intercept_errors`
+  * 确认没有开启`fastcgi_intercept_errors` [nginx-bp/enable/errors.conf]
 
 ## 无法正确加载语言文件
 
