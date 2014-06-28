@@ -21,6 +21,9 @@
 var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
 document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F4b6ba668b5e012c2628252368f56981c' type='text/javascript'%3E%3C/script%3E"));
 </script>
+<!--
+<a href="http://www.beyondsecurity.com/vulnerability-scanner-verification/blog.linxiang.info"><img src="https://secure.beyondsecurity.com/verification-images/blog.linxiang.info/vulnerability-scanner-2.gif" alt="Website Security Test" border="0" /></a>
+-->
 </div>
 
 <script>
