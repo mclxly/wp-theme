@@ -6,6 +6,7 @@
   * [Better colors for the web](https://github.com/mrmrs/colors)
   * [在线转换工具](http://tools.konstruktors.com/)(.po <-> .mo)
   * 记录用户设置[jquery-cookie](https://github.com/carhartl/jquery-cookie)
+  * 代码高亮[prismjs](http://prismjs.com/)
 
 # 配色(dark/light)
   * 导航栏分割线: #b1b1b1 / #707070
