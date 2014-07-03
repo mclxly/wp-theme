@@ -58,6 +58,14 @@ function init_navbar($) {
   });
 }
 
+function add_language_title($) {
+  console.log('add_language_title');
+  $("code[class^='language-']").each(function(){
+    //$(this).prepend( "<p>Test</p>" );
+    $(this).before( '<div class="language-title">'+$(this).attr('rel')+"</div>" );
+  });
+}
+
 (function($) {
 
 // Use this variable to set up the common and page specific functions. If you
@@ -81,6 +89,12 @@ var Roots = {
   about_us: {
     init: function() {
       // JavaScript to be fired on the about us page
+    }
+  },
+  // add by Colin
+  single_post: {
+    init: function() {
+      add_language_title($);
     }
   }
 };
