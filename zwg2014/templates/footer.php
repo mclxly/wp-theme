@@ -2,7 +2,7 @@
   <div class="row text-center">
     <div class="col-lg-12">
       <?php dynamic_sidebar('sidebar-footer'); ?>
-      <p>&copy; 2012-<?php echo date('Y'); ?> <?php bloginfo('name'); ?>
+      <p>「唯快不破」&copy; 2012-<?php echo date('Y'); ?> <?php bloginfo('name'); ?>
         [<a href="http://j.map.baidu.com/FVQht" target="_blank">百度</a>
         <span class="octicon octicon-location"></span>
         <a href="http://amap.com/0B96kC" target="_blank">高德</a>]
