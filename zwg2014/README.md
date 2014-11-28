@@ -6,7 +6,6 @@
   * [Better colors for the web](https://github.com/mrmrs/colors)
   * [在线转换工具](http://tools.konstruktors.com/)(.po <-> .mo)
   * 记录用户设置[jquery-cookie](https://github.com/carhartl/jquery-cookie)
-  * 代码高亮[prismjs](http://prismjs.com/)
 
 # 配色(dark/light)
   * 导航栏分割线: #b1b1b1 / #707070
@@ -19,7 +18,7 @@
 
 ## nginx下无法正确显示404.php
   * error_page 404 /index.php;
-  * 确认没有开启`fastcgi_intercept_errors` [nginx-bp/enable/errors.conf]
+  * 确认没有开启`fastcgi_intercept_errors`
 
 ## 无法正确加载语言文件
 

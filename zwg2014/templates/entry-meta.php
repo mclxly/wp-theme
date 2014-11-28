@@ -6,4 +6,9 @@
   <span class="tag-list">
   <?php the_terms( $post->ID, 'category', '标签: ', ' / ' ); ?>
   </span>
+  <span class="tag-list">
+    <a href="<?php comments_link(); ?>">
+    <?php comments_number( 'no responses', 'one response', '% responses' ); ?>
+    </a>
+  </span>
 </p>
